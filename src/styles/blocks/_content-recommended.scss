@@ -1,0 +1,77 @@
+.content-recommended {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content-recommended__text {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+}
+
+.content-recommended__text-date {
+  font-size: 12px;
+  color: #999999;
+  display: block;
+}
+
+.content-recommended__box {
+  margin-right: 10px;
+  width: 360px;
+  position: relative;
+&:nth-child(3n){
+  margin-right: 0;
+}
+  img {
+    outline: none;
+    border-radius: 10px;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.content-recommended__time {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  font-size: 14px;
+  display: flex;
+}
+
+.content-recommended__link {
+  position: absolute;
+  top: 132px;
+  right: 29px;
+  background: #FF0000;
+  color: #FFFFFF;
+ width: 97px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
+  &:hover {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 0 0 10px #FFFFFF;
+  }
+}
+
+.content-recommended__left {
+  background: #0038FF;
+  width: 31px;
+  height: 17px;
+  font-size: 10px;
+  text-align: center;
+  display: block;
+}
+
+.content-recommended__right {
+  padding-left: 17px;
+  margin-left: 12px;
+  font-size: 10px;
+  background: url("../img/clock.svg") no-repeat left;
+}

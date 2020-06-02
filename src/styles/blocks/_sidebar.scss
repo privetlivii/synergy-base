@@ -1,0 +1,28 @@
+.sidebar__video-box {
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.sidebar__box-link {
+  position: absolute;
+  top: 167px;
+  left: 118px;
+}
+
+.sidebar__video-image {
+  border-radius: 10px;
+}
+
+.sidebar__video-text {
+  font-size: 22px;
+  position: absolute;
+  bottom: 12px;
+  width: 80%;
+  margin-left: 28px;
+
+  span {
+    display: block;
+    color: #999999;
+    font-size: 12px;
+  }
+}

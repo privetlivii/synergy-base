@@ -1,0 +1,31 @@
+.block-headline {
+  display: flex;
+  align-items: center
+}
+
+.block-headline__text {
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 1vw;
+}
+
+.block-headline__bookmark {
+  font-size: 18px;
+  margin-left: auto;
+  color: #A1A1A1;
+  display: flex;
+}
+
+.block-headline__bookmark::before {
+  content: "";
+  background: url("../img/bookmark1.svg") no-repeat left;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.block-headline__bookmark.active::before {
+  background: url("../img/bookmark2.svg") no-repeat left;
+  width: 25px;
+  height: 25px;
+}

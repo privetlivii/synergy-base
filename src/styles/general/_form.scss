@@ -1,0 +1,117 @@
+.custom-control-label {
+  color: #999999;
+}
+
+.content-block__title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.custom-control-input {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: transparent;
+  box-shadow: none;
+  background-color: #1f1f1f;
+  background-image: none;
+}
+
+.custom-control-input:checked ~ .custom-control-label::after {
+  opacity: 1;
+  transform: rotate(45deg) scale(1);
+  background-image: none;
+}
+
+.custom-control-label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 2vw 2vw 0;
+
+  &::after,
+  &::before {
+    display: block;
+    transition: all 0.25s cubic-bezier(0.27, 0.01, 0.38, 1.06);
+    content: "";
+  }
+
+  &::before {
+    user-select: none;
+    margin-right: 15px;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: #1f1f1f;
+    box-shadow: none;
+    pointer-events: all;
+    border: 1px solid #ffffff;
+  }
+
+  &::after {
+    position: absolute;
+    top: 2px;
+    left: 7px;
+    width: 5px;
+    height: 11px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transition-delay: 0.1s;
+  }
+}
+
+.select-parent {
+  position: relative;
+}
+
+.select-current {
+  cursor: pointer;
+  background: #353535;
+  padding: 16px 60px 16px 12px;
+  text-align: left;
+  border-radius: 5px;
+  font-size: 16px;
+  position: relative;
+
+  &::after {
+    border-left: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    height: 5px;
+    width: 5px;
+    content: "";
+    transform: rotate(-45deg);
+    top: 21px;
+    right: 10px;
+    position: absolute;
+  }
+}
+
+.select-list {
+  margin: 0;
+  list-style: none;
+  position: absolute;
+  display: none;
+  color: #fff;
+  background: #353535;
+  z-index: 2;
+  padding: 12px;
+  top: 92%;
+  left: 0;
+  border-radius: 0 0 5px 5px;
+  text-align: left;
+  min-width: 100%;
+  white-space: nowrap;
+}
+
+.select-label {
+  margin-right: 20px;
+}
+
+.select-open .select-list {
+  display: block;
+}

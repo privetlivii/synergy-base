@@ -1,0 +1,71 @@
+.content-program {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.content-program__purchase {
+  margin-right: 1vw;
+  position: relative;
+
+  img {
+    border-radius: 10px;
+  }
+}
+.content-program__purchase-top {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  width: 100%;
+}
+
+.content-program__purchase-left {
+  background: #0038FF;
+  padding: 0 1vw;
+  height: 2vw;
+  font-size: 1.3vw;
+}
+
+.content-program__purchase-right {
+  margin-left: 210px;
+  font-size: 22px;
+  width: 50%;
+
+  span {
+    display: block;
+    color: #999999;
+    font-size: 15px;
+  }
+}
+
+.content-program__purchase-bottom {
+  position: absolute;
+  bottom: 29px;
+  right: 28px;
+display: flex;
+  span {
+    background: url("../img/clock.svg") no-repeat left;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.content-program__purchase-link {
+  background: #FF0000;
+  width: 97px;
+  height: 30px;
+  color: #FFFFFF;
+  border-radius: 5px;
+display: block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 27px;
+  &:hover {
+    text-decoration: none;
+    background: #FFFFFF;
+    color: #FF0000;
+  }
+}

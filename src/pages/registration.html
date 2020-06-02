@@ -1,0 +1,51 @@
+@@include("html/header.html")
+@@include('html/search.html')
+<div class="registration container">
+    <ul class="subscription__breadcrumb-list">
+        <li class="subscription__breadcrumb-item">
+            <a href="/" class="subscription__breadcrumb-link">Главная /</a>
+        </li>
+        <li class="subscription__breadcrumb-item">
+            <a href="#" class="subscription__breadcrumb-link">Просмотры</a>
+        </li>
+    </ul>
+    <div class="registration__title">
+        <div class="registration__title-text">Регистрация</div>
+        <div class="registration__title-step">1</div>
+        <div class="registration__title-step2">2</div>
+        <div class="registration__title-step3">3</div>
+    </div>
+    <form action="#" class="registration__form">
+        <div class="registration__form-title">Личные данные</div>
+        <div class="registration__form-inner">
+        <input type="text" name="q" value="" placeholder="Ваше имя" class="registration__form-input">
+        <input type="text" name="q" value="" placeholder="Ваш e-mail" class="registration__form-input">
+        <input type="text" name="q" value="" placeholder="Придумайте пароль" class="registration__form-input">
+        <input type="text" name="q" value="" placeholder="Повторите пароль" class="registration__form-input"></div>
+
+        <div class="registration__text-confirmation">Вы получите СМС для подтверждения учетной записи</div>
+        <input type="text" name="q" value="" placeholder="Ваш номер телефона" class="registration__form-input registration__form-input_phone">
+
+        <div class="registration__form-checkbox__block">
+            <input type="checkbox" id="checkbox-01" name="checkbox" value="y" class="registration__form-checkbox">
+            <label for="checkbox-01" class="registration__form-checkbox__label">Согласен с условиями, рассылками и прочим</label>
+        </div>
+        <button name="s" type="submit" class="registration__form-btn">
+            <a href="#" class="registration__form-btn__link" data-fancybox data-src="#registration__modal-sms">Далее</a>
+        </button>
+    </form>
+    <div class="registration__modal-sms" id="registration__modal-sms">
+        <div class="registration-modal__title">
+            Введите код из СМС
+            <span class="registration-modal__title-text">Вам было выслано СМС сообщение с номером для подтверждения. Введите цифры из СМС сообщения</span>
+        </div>
+
+        <form action="#" class="registration-modal__form">
+            <input type="text" name="q" value="" placeholder="****" class="registration-modal__information">
+            <button name="s" type="submit" class="registration-modal__btn">
+                <a href="#" class="registration-modal__btn-link">Регистрация</a>
+            </button>
+        </form>
+    </div>
+</div>
+@@include('html/footer.html')

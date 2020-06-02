@@ -1,0 +1,406 @@
+@@include("html/header.html")
+@@include('html/search.html')
+
+
+<!-- Begin main-slider -->
+<div class="main-slider init__slick" data-slick='{
+        "slidesToScroll": 1,
+        "slidesToShow": 1,
+        "centerMode": true,
+        "variableWidth": true,
+        "appendArrows": ".main-slider__arrows",
+         "responsive": [
+        {
+          "breakpoint": 1140,
+          "settings": {
+            "centerMode": false,
+            "variableWidth": false
+          }
+        }
+      ]}'>
+    <div>
+        <div class="main-slider__item">
+            <div class="main-slider__item-images">
+                <img alt="" src="img/slider-01.jpg"></div>
+            <div class="main-slider__title">
+                <div class="main-slider__left"><a href="#" class="main-slider__link">Смотреть по подписке</a></div>
+                <div class="main-slider__right"><img alt="" src="img/title.svg" class="main-slider__right-text">
+                    <span>24 часа видео со скидкой 20%!</span></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="main-slider__item">
+            <div class="main-slider__item-images">
+                <img alt="" src="img/slider-01.jpg"></div>
+            <div class="main-slider__title">
+                <div class="main-slider__left"><a href="#" class="main-slider__link">Смотреть по подписке</a></div>
+                <div class="main-slider__right"><img alt="" src="img/title.svg" class="main-slider__right-text">
+                    <span>24 часа видео со скидкой 20%!</span></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="main-slider__item">
+            <div class="main-slider__item-images">
+                <img alt="" src="img/slider-01.jpg"></div>
+            <div class="main-slider__title">
+                <div class="main-slider__left"><a href="#" class="main-slider__link">Смотреть по подписке</a></div>
+                <div class="main-slider__right"><img alt="" src="img/title.svg" class="main-slider__right-text">
+                    <span>24 часа видео со скидкой 20%!</span></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-slider__arrows container">
+    <div class="main-slider__one"></div>
+    <div class="main-slider__two"></div>
+</div>
+<!-- End main-slider -->
+
+
+<div class="container">
+
+    <div class="content-block">
+        <span class="content-block__title">Вы недавно смотрели</span>
+    </div>
+
+        <div class="content-selection__gallery viewed init__slick" data-slick='{
+        "infinite": true,
+        "slidesToScroll": 1,
+        "slidesToShow": 3,
+        "dots": true,
+        "arrows": false,
+         "responsive": [
+        {
+          "breakpoint": 769,
+          "settings": {
+            "slidesToShow": 2
+          }
+        },
+        {
+          "breakpoint": 481,
+          "settings": {
+            "slidesToShow": 1
+          }
+        }
+      ]}'>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-01.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">2:30</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span>Продолжить просмотр</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-02.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">12:08</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span>Продолжить просмотр</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-03.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">35:01</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span>Продолжить просмотр</span>
+                </p>
+            </div>
+
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-04.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">35:01</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span>Продолжить просмотр</span>
+                </p>
+            </div>
+
+    </div>
+    <div class="content-selection">
+        <div class="content-block">
+            <span class="content-block__title">Подборки</span>
+            <a href="#" class="content-block__link">Все</a>
+        </div>
+        <div class="content-selection__gallery init__slick" data-slick='{
+        "infinite": true,
+        "slidesToScroll": 1,
+        "slidesToShow": 3,
+        "dots": true,
+        "arrows": false,
+         "responsive": [
+        {
+          "breakpoint": 769,
+          "settings": {
+            "slidesToShow": 2
+          }
+        },
+        {
+          "breakpoint": 481,
+          "settings": {
+            "slidesToShow": 1
+          }
+        }
+      ]}'>
+            <div class="content-selection__box">
+                <img alt="" src="img/bg-01.jpg" class="content-selection__box-image">
+                <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+                <div class="content-selection__box-year">2017</div>
+                <a href="#" class="content-selection__box-link">Все видео!</a>
+            </div>
+            <div class="content-selection__box">
+                <img alt="" src="img/bg-02.jpg" class="content-selection__box-image">
+                <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+                <div class="content-selection__box-year">2017</div>
+                <a href="#" class="content-selection__box-link">Все видео!</a>
+            </div>
+            <div class="content-selection__box">
+                <img alt="" src="img/bg-03.jpg" class="content-selection__box-image">
+                <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+                <div class="content-selection__box-year">2017</div>
+                <a href="#" class="content-selection__box-link">Все видео!</a>
+            </div>
+            <div class="content-selection__box">
+                <img alt="" src="img/bg-02.jpg" class="content-selection__box-image">
+                <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+                <div class="content-selection__box-year">2017</div>
+                <a href="#" class="content-selection__box-link">Все видео!</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-recommended">
+        <div class="content-block">
+            <span class="content-block__title">Рекомендуемые</span>
+            <a href="#" class="content-block__link">Все</a>
+        </div>
+
+        <div class="content-recommended">
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-01.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-02.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-03.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-04.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-05.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-06.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-07.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-08.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-09.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+        </div>
+    </div>
+
+    <div class="content-subscription">
+        <div class="content-subscription__text">Годовая подписка на Synergy Base теперь дешевле!<br> <span>Подпишись до конца месяца со скидкой!</span>
+        </div>
+        <div class="content-subscription__button"><a href="#" class="content-subscription__link">Подробнее</a>
+        </div>
+    </div>
+    <div class="content-recommended">
+        <div class="content-block">
+            <span class="content-block__title">Рекомендуемые</span>
+            <a href="#" class="content-block__link">Все</a>
+        </div>
+
+        <div class="content-recommended">
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-01.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-02.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-03.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-04.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-05.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-06.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-07.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-08.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+            <div class="content-recommended__box">
+                <img alt="" src="img/person-09.jpg">
+                    <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                    <a href="#" class="content-recommended__link">Подписка</a>
+                    <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                    </p>
+                </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <span class="content-block__title">Спикеры</span>
+        <a href="#" class="content-block__link">Все</a>
+    </div>
+    <div class="content-speaker__gallery init__slick" data-slick='{
+        "infinite": true,
+        "slidesToScroll": 1,
+        "slidesToShow": 5,
+        "arrows": true,
+         "responsive": [
+        {
+          "breakpoint": 769,
+          "settings": {
+            "slidesToShow": 3
+          }
+        },
+        {
+          "breakpoint": 481,
+          "settings": {
+            "slidesToShow": 2
+          }
+        }
+      ]}'>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-10.jpg"></a><span>Арнольд Шварцнегер</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-11.jpg"></a><span>Ицхак Пинтосиевич</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-12.jpg"></a><span>Тони Роббинс</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-13.jpg"></a><span>Майк Тайсон</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-14.jpg"></a><span>Лейсан Утяшева</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-10.jpg"></a><span>Арнольд Шварцнегер</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-11.jpg"></a><span>Ицхак Пинтосиевич</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-12.jpg"></a><span>Тони Роббинс</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-13.jpg"></a><span>Майк Тайсон</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class=""><img alt="" src="img/person-14.jpg"></a><span>Лейсан Утяшева</span>
+        </div>
+    </div>
+
+    <div class="content-program">
+        <div class="content-program__purchase inner"><img alt="" src="img/person-15.jpg">
+            <div class="content-program__purchase-top"><span class="content-program__purchase-left">8.1</span>
+                <p class="content-program__purchase-right">7 навыков эффективных людей Стивена Кови
+                    <span>12 видео</span></p></div>
+            <div class="content-program__purchase-bottom">
+                <span>45 мин.</span>
+                <a href="#" class="content-program__purchase-link violet">Покупка</a>
+            </div>
+        </div>
+        <div class="content-program__purchase inner"><img alt="" src="img/person-16.jpg">
+            <div class="content-program__purchase-top"><span class="content-program__purchase-left">8.1</span>
+                <p class="content-program__purchase-right">Менеджмент 21 века Питера Друкера <span>7 видео</span>
+                </p></div>
+            <div class="content-program__purchase-bottom"><span>45 мин.</span><a href="#"
+                                                                                 class="content-program__purchase-link">Подписка</a>
+            </div>
+        </div>
+    </div>
+    <div class="content-block">
+        <span class="content-block__title">Подкасты</span>
+        <a href="#" class="content-block__link">Все</a>
+    </div>
+    <div class="content-podcast">
+        <div class="content-podcast__box">
+            <img alt="" src="img/bg-05.jpg">
+            <a href="#" class="content-podcast__box-link">Бизнес</a>
+        </div>
+        <div class="content-podcast__box">
+            <img alt="" src="img/bg-06.jpg">
+            <a href="#" class="content-podcast__box-link">Персональная<br />
+                мотивация</a>
+        </div>
+        <div class="content-podcast__box">
+            <img alt="" src="img/bg-07.jpg">
+            <a href="#" class="content-podcast__box-link">Саморазвитие</a>
+        </div>
+    </div>
+</div>
+@@include('html/footer.html')

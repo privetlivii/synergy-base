@@ -1,0 +1,45 @@
+@@include("html/header.html")
+@@include('html/search.html')
+<div class="registration-pay container">
+    <ul class="subscription__breadcrumb-list">
+        <li class="subscription__breadcrumb-item">
+            <a href="/" class="subscription__breadcrumb-link">Главная /</a>
+        </li>
+        <li class="subscription__breadcrumb-item">
+            <a href="#" class="subscription__breadcrumb-link">Просмотры</a>
+        </li>
+    </ul>
+    <div class="registration__title">
+        <div class="registration__title-text">Регистрация</div>
+        <div class="registration__title-step">1</div>
+        <div class="registration__title-step2">2</div>
+        <div class="registration__title-step3">3</div>
+    </div>
+<div class="registration-period__title">Введите данные карты</div>
+    <div class="registration-pay__inner">
+<div class="registration-pay__card">
+    <p class="registration-pay__card-text">Номер карты</p>
+    <input type="text" name="q" value="" placeholder="XXXX XXXX XXXX XXXX" class="registration-pay__card-field">
+    <p class="registration-pay__card-text registration-pay__text-two">Срок действия</p>
+    <div class="stick"> <input type="text" name="q" value="" placeholder="01" class="registration-pay__card-field registration-pay__field-two">
+    <input type="text" name="q" value="" placeholder="20" class="registration-pay__card-field registration-pay__field-two"></div>
+    <p class="registration-pay__card-text registration-pay__text-two">Имя и фамилия владельца карты</p>
+    <input type="text" name="q" value="" placeholder="IVANOV IVAN" class="registration-pay__card-field">
+</div>
+    <div class="registration-pay__cvc">
+<div class="registration-pay__cvc-row"></div>
+        <div class="registration-pay__cvc-box">
+            <div class="registration-pay__cvc-left"></div>
+            <div class="registration-pay__cvc-code">CVC
+                <input type="text" name="q" value="" placeholder="" class="registration-pay__cvc-input">
+            </div>
+        </div>
+        <div class="registration-pay__cvc-text">Три цифры с обратной стороны карты</div>
+    </div>
+    </div>
+<div class="registration-pay__way">
+    <div class="registration-pay__way-box"><img src="img/visa-02.svg" alt=""><img src="img/mastercard.svg" alt=""><img src="img/maestro.svg" alt=""></div>
+    <p class="registration-pay__way-text">В&nbsp;случае если Ваш банк поддерживает технологию безопасного проведения интернет-платежей Vefified by&nbsp;Visa или Mastercard Secure Code, для проведения платежа может потребоваться ввод специального пароля. Способы и&nbsp;возможности получения паролей для совершения интернет-платежей Вы&nbsp;можете уточнить в&nbsp;банке, выпустившем карту.</p>
+</div>
+</div>
+@@include('html/footer.html')

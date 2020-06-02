@@ -1,0 +1,165 @@
+@@include("html/header.html")
+@@include('html/search.html', {"class": ""})
+
+<div class="bookmarks container">
+    <ul class="subscription__breadcrumb-list">
+        <li class="subscription__breadcrumb-item">
+            <a href="/" class="subscription__breadcrumb-link">Главная /</a>
+        </li>
+        <li class="subscription__breadcrumb-item">
+            <a href="#" class="subscription__breadcrumb-link">Избранное</a>
+        </li>
+    </ul>
+    <div class="bookmarks__title">Избранные видео</div>
+
+    <div class="content-recommended">
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-01.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-02.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-03.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-04.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-05.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+            </div>
+        <div class="content-recommended__box">
+            <img alt="" src="img/person-06.jpg">
+                <div class="content-recommended__time"><span class="content-recommended__left">8.1</span><span class="content-recommended__right">45 мин.</span></div>
+                <a href="#" class="content-recommended__link">Подписка</a>
+                <p class="content-recommended__text">Тони Роббинс “Просто поверьте в себя”<span class="content-recommended__text-date">2018, Synergy Global Forum</span>
+                </p>
+        </div>
+    </div>
+    <div class="bookmarks__title">Избранные подборки</div>
+    <div class="content-selection__gallery init__slick" data-slick='{
+        "infinite": true,
+        "slidesToScroll": 1,
+        "slidesToShow": 3,
+        "dots": true,
+        "arrows": false,
+         "responsive": [
+        {
+          "breakpoint": 769,
+          "settings": {
+            "slidesToShow": 2
+          }
+        },
+        {
+          "breakpoint": 481,
+          "settings": {
+            "slidesToShow": 1
+          }
+        }
+      ]}'>
+        <div class="content-selection__box">
+            <img alt="" src="img/bg-01.jpg" class="content-selection__box-image">
+            <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+            <div class="content-selection__box-year">2017</div>
+            <a href="#" class="content-selection__box-link">Все видео!</a>
+        </div>
+        <div class="content-selection__box">
+            <img alt="" src="img/bg-02.jpg" class="content-selection__box-image">
+            <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+            <div class="content-selection__box-year">2017</div>
+            <a href="#" class="content-selection__box-link">Все видео!</a>
+        </div>
+        <div class="content-selection__box">
+            <img alt="" src="img/bg-03.jpg" class="content-selection__box-image">
+            <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+            <div class="content-selection__box-year">2017</div>
+            <a href="#" class="content-selection__box-link">Все видео!</a>
+        </div>
+        <div class="content-selection__box">
+            <img alt="" src="img/bg-02.jpg" class="content-selection__box-image">
+            <img alt="" src="img/title-02.svg" class="content-selection__box-title">
+            <div class="content-selection__box-year">2017</div>
+            <a href="#" class="content-selection__box-link">Все видео!</a>
+        </div>
+    </div>
+    <div class="bookmarks__title">Избранные спикеры</div>
+    <div class="content-speaker__gallery init__slick" data-slick='{
+        "infinite": true,
+        "slidesToScroll": 1,
+        "slidesToShow": 5,
+        "arrows": true,
+         "responsive": [
+        {
+          "breakpoint": 769,
+          "settings": {
+            "slidesToShow": 3
+          }
+        },
+        {
+          "breakpoint": 481,
+          "settings": {
+            "slidesToShow": 2
+          }
+        }
+      ]}'>
+        <div class="content-speaker__box"><a href="#" class="">
+            <img alt="" src="img/person-10.jpg"></a><span>Арнольд Шварцнегер</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class="">
+            <img alt="" src="img/person-12.jpg"></a><span>Тони Роббинс</span>
+        </div>
+        <div class="content-speaker__box"><a href="#" class="">
+            <img alt="" src="img/person-13.jpg"></a><span>Майк Тайсон</span>
+        </div>
+    </div>
+    <div class="content-block">
+        <span class="content-block__title">Сохраненные подкасты</span>
+    </div>
+    <div class="content-podcast">
+        <div class="content-podcast__box">
+            <img alt="" src="img/bg-05.jpg">
+            <a href="#" class="content-podcast__box-link">Бизнес</a>
+        </div>
+        <div class="content-podcast__box">
+            <img alt="" src="img/bg-06.jpg">
+            <a href="#" class="content-podcast__box-link">Персональная<br />
+                мотивация</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@@include('html/footer.html')

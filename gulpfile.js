@@ -15,19 +15,6 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     ftp = require('vinyl-ftp');
 
-gulp.task('deploy', function () {
-    var conn = ftp.create({
-        host: 'artlen0t.beget.tech',
-        user: 'artlen0t_depfill',
-        password: 'Ouu2H*aG&bZytNA2',
-        parallel: 10
-    });
-
-    var globs = [
-        'build/**'
-    ];
-    return gulp.src(globs, {buffer: false}).pipe(conn.dest('/'));
-});
 
 const paths = {
     html: {
